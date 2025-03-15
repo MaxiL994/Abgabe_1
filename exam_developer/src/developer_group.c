@@ -19,3 +19,14 @@ developer_group_t developer_group_init(const developer_t *developers, size_t num
     group.num_developers = num_devs;
     return group;
 }
+
+/* List all developers in the group */
+void developer_group_list_developers(const developer_group_t *group) {
+    if (group == NULL || group->num_developers == 0) {
+        printf("Error: No developers in group\n");
+        return;
+    }
+    for (size_t i = 0; i < group->num_developers; i++) {
+        developer_print(&group->developers[i]);
+    }
+}
