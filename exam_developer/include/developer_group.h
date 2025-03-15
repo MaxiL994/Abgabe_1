@@ -22,3 +22,19 @@ typedef struct {
     const char *logo;
     const char *group_name;
 } developer_group_t;
+
+/* Initialize a developer group with developers and a logo */
+developer_group_t developer_group_init(const developer_t *developers, size_t num_devs, const char *logo);
+
+/* List all developers in the group */
+void developer_group_list_developers(const developer_group_t *group);
+
+/* Print the group logo */
+void developer_group_print_logo(const developer_group_t *group);
+
+/* Print both logo and developers */
+void developer_group_print(const developer_group_t *group);
+
+/* Free allocated memory */
+void developer_group_free(developer_group_t *group);
+
