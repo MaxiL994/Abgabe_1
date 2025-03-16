@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.20)
 
 # Project definition
-project(LaborSoftwareentwicklungI C)
+project( C)
 
 # Set C standard and compiler flags
 set(CMAKE_C_STANDARD 11)
