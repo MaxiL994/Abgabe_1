@@ -30,3 +30,22 @@ void developer_group_list_developers(const developer_group_t *group) {
         developer_print(&group->developers[i]);
     }
 }
+
+/* Print the group logo */
+void developer_group_print_logo(const developer_group_t *group) {
+    if (group == NULL || group->logo == NULL) {
+        printf("Error: No logo available\n");
+        return;
+    }
+    printf("%s\n", group->logo);
+}
+
+/* Print both logo and developers */
+void developer_group_print(const developer_group_t *group) {
+    if (group == NULL) {
+        printf("Error: Invalid group\n");
+        return;
+    }
+    developer_group_print_logo(group);
+    developer_group_list_developers(group);
+}
