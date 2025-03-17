@@ -1,4 +1,4 @@
-#include "developer.h"
+#include "../include/developer.h"
 #include <stdio.h>
 
 /* Initialize a developer with name and alias */
