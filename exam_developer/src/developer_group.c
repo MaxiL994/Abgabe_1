@@ -20,7 +20,9 @@ developer_group_t developer_group_init(const developer_t *developers, size_t num
     return group;
 }
 
-/* List all developers in the group */
+/* List all developers in the group
+print error message, if no developers are listed in the group
+*/
 void developer_group_list_developers(const developer_group_t *group) {
     if (group == NULL || group->num_developers == 0) {
         printf("Error: No developers in group\n");
@@ -40,7 +42,7 @@ void developer_group_print_logo(const developer_group_t *group) {
     printf("%s\n", group->logo);
 }
 
-/* Print both logo and developers */
+/* Print both logo and developers together*/
 void developer_group_print(const developer_group_t *group) {
     if (group == NULL) {
         printf("Error: Invalid group\n");
