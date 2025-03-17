@@ -67,7 +67,6 @@ Runs until user presses 4 to exit.
         }
     } while (choice != 4);
 
-    /* Free allocated memory */
-    developer_group_free(&group);
+
     return 0;
 }
