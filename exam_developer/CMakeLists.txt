@@ -6,22 +6,17 @@ project(CacheCows C)
 
 # Set C standard and compiler flags
 set(CMAKE_C_STANDARD 11)
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra -pedantic")
+set(CMAKE_C_STANDARD_REQUIRED True)
+add_compile_options(-Wall -Wextra -pedantic)
 
-# Define the library
-add_library(devlib
-    src/developer.c
-    src/developer_group.c
-)
+# Create a library from developer and developer_group source files
+add_library(devlib src/developer.c src/developer_group.c)
 
-# Specify include directories for the library
-target_include_directories(devlib PUBLIC
-    ${CMAKE_CURRENT_SOURCE_DIR}/include
-   
-)
+# Set the include directory for the library
+target_include_directories(devlib PUBLIC include)
 
-# Define the main executable
-add_executable(exam_developer_exec /src/main.c)
+# Create the main executable
+add_executable(CacheCows_exec src/main.c)
 
-# Link the library to the executable
-target_link_libraries(exam_developer_exec PRIVATE devlib)
+# Link the library to the main executable
+target_link_libraries(CacheCows_exec PRIVATE devlib)
