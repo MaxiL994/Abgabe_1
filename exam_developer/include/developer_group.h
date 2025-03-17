@@ -50,7 +50,4 @@ void developer_group_print_logo(const developer_group_t *group);
 /* Print both logo and developers */
 void developer_group_print(const developer_group_t *group);
 
-/* Free allocated memory */
-void developer_group_free(developer_group_t *group);
-
 #endif /* DEVELOPER_GROUP_H_asdfa234 */
