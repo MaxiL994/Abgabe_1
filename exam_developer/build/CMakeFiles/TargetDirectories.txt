@@ -1,0 +1,4 @@
+/workspaces/Abgabe_1/exam_developer/build/CMakeFiles/devlib.dir
+/workspaces/Abgabe_1/exam_developer/build/CMakeFiles/CacheCows_exec.dir
+/workspaces/Abgabe_1/exam_developer/build/CMakeFiles/edit_cache.dir
+/workspaces/Abgabe_1/exam_developer/build/CMakeFiles/rebuild_cache.dir
