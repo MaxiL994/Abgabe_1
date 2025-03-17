@@ -16,7 +16,7 @@ add_library(devlib src/developer.c src/developer_group.c)
 target_include_directories(devlib PUBLIC include)
 
 # Create the main executable
-add_executable(CacheCows_exec src/main.c)
+add_executable(cachecows_exec src/main.c)
 
 # Link the library to the main executable
-target_link_libraries(CacheCows_exec PRIVATE devlib)
+target_link_libraries(cachecows_exec PRIVATE devlib)
