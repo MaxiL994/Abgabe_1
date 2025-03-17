@@ -6,7 +6,6 @@ project(CacheCows C)
 
 # Set C standard and compiler flags
 set(CMAKE_C_STANDARD 11)
-set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra -pedantic")
 
 # Define the library
@@ -22,7 +21,7 @@ target_include_directories(devlib PUBLIC
 )
 
 # Define the main executable
-add_executable(exam_developer_exec /exam_developer)
+add_executable(exam_developer_exec /src/main.c)
 
 # Link the library to the executable
 target_link_libraries(exam_developer_exec PRIVATE devlib)
