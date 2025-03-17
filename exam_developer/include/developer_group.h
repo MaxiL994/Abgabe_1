@@ -4,7 +4,9 @@
 #include "developer.h"
 #include <stddef.h>
 
-/*Array with ASCII art in lines*/
+/*Array with ASCII art in lines
+for printing the group logo
+*/
 #define GROUP_LOGO \
     "================= Cache Cows =================   \n" \
     "                                                 \n" \
@@ -51,3 +53,4 @@ void developer_group_print(const developer_group_t *group);
 /* Free allocated memory */
 void developer_group_free(developer_group_t *group);
 
+#endif /* DEVELOPER_GROUP_H_asdfa234 */
