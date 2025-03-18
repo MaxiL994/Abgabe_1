@@ -1,4 +1,4 @@
-CMakeFiles/CacheCows_exec.dir/src/main.c.o: \
+CMakeFiles/cachecows_exec.dir/src/main.c.o: \
  /workspaces/Abgabe_1/exam_developer/src/main.c \
  /usr/include/stdc-predef.h \
  /workspaces/Abgabe_1/exam_developer/src/../include/developer_group.h \

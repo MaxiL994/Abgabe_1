@@ -64,12 +64,12 @@ CMAKE_BINARY_DIR = /workspaces/Abgabe_1/exam_developer/build
 
 # The main recursive "all" target.
 all: CMakeFiles/devlib.dir/all
-all: CMakeFiles/CacheCows_exec.dir/all
+all: CMakeFiles/cachecows_exec.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/devlib.dir/codegen
-codegen: CMakeFiles/CacheCows_exec.dir/codegen
+codegen: CMakeFiles/cachecows_exec.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -78,7 +78,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/devlib.dir/clean
-clean: CMakeFiles/CacheCows_exec.dir/clean
+clean: CMakeFiles/cachecows_exec.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -114,36 +114,36 @@ CMakeFiles/devlib.dir/clean:
 .PHONY : CMakeFiles/devlib.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/CacheCows_exec.dir
+# Target rules for target CMakeFiles/cachecows_exec.dir
 
 # All Build rule for target.
-CMakeFiles/CacheCows_exec.dir/all: CMakeFiles/devlib.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CacheCows_exec.dir/build.make CMakeFiles/CacheCows_exec.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CacheCows_exec.dir/build.make CMakeFiles/CacheCows_exec.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Abgabe_1/exam_developer/build/CMakeFiles --progress-num=1,2 "Built target CacheCows_exec"
-.PHONY : CMakeFiles/CacheCows_exec.dir/all
+CMakeFiles/cachecows_exec.dir/all: CMakeFiles/devlib.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cachecows_exec.dir/build.make CMakeFiles/cachecows_exec.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cachecows_exec.dir/build.make CMakeFiles/cachecows_exec.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Abgabe_1/exam_developer/build/CMakeFiles --progress-num=1,2 "Built target cachecows_exec"
+.PHONY : CMakeFiles/cachecows_exec.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/CacheCows_exec.dir/rule: cmake_check_build_system
+CMakeFiles/cachecows_exec.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Abgabe_1/exam_developer/build/CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CacheCows_exec.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cachecows_exec.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Abgabe_1/exam_developer/build/CMakeFiles 0
-.PHONY : CMakeFiles/CacheCows_exec.dir/rule
+.PHONY : CMakeFiles/cachecows_exec.dir/rule
 
 # Convenience name for target.
-CacheCows_exec: CMakeFiles/CacheCows_exec.dir/rule
-.PHONY : CacheCows_exec
+cachecows_exec: CMakeFiles/cachecows_exec.dir/rule
+.PHONY : cachecows_exec
 
 # codegen rule for target.
-CMakeFiles/CacheCows_exec.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CacheCows_exec.dir/build.make CMakeFiles/CacheCows_exec.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Abgabe_1/exam_developer/build/CMakeFiles --progress-num=1,2 "Finished codegen for target CacheCows_exec"
-.PHONY : CMakeFiles/CacheCows_exec.dir/codegen
+CMakeFiles/cachecows_exec.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cachecows_exec.dir/build.make CMakeFiles/cachecows_exec.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Abgabe_1/exam_developer/build/CMakeFiles --progress-num=1,2 "Finished codegen for target cachecows_exec"
+.PHONY : CMakeFiles/cachecows_exec.dir/codegen
 
 # clean rule for target.
-CMakeFiles/CacheCows_exec.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CacheCows_exec.dir/build.make CMakeFiles/CacheCows_exec.dir/clean
-.PHONY : CMakeFiles/CacheCows_exec.dir/clean
+CMakeFiles/cachecows_exec.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cachecows_exec.dir/build.make CMakeFiles/cachecows_exec.dir/clean
+.PHONY : CMakeFiles/cachecows_exec.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

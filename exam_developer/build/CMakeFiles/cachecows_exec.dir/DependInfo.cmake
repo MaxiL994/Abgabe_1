@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/workspaces/Abgabe_1/exam_developer/src/main.c" "CMakeFiles/CacheCows_exec.dir/src/main.c.o" "gcc" "CMakeFiles/CacheCows_exec.dir/src/main.c.o.d"
-  "" "CacheCows_exec" "gcc" "CMakeFiles/CacheCows_exec.dir/link.d"
+  "/workspaces/Abgabe_1/exam_developer/src/main.c" "CMakeFiles/cachecows_exec.dir/src/main.c.o" "gcc" "CMakeFiles/cachecows_exec.dir/src/main.c.o.d"
+  "" "cachecows_exec" "gcc" "CMakeFiles/cachecows_exec.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

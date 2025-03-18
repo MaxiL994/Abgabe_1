@@ -130,17 +130,17 @@ devlib/fast:
 .PHONY : devlib/fast
 
 #=============================================================================
-# Target rules for targets named CacheCows_exec
+# Target rules for targets named cachecows_exec
 
 # Build rule for target.
-CacheCows_exec: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CacheCows_exec
-.PHONY : CacheCows_exec
+cachecows_exec: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cachecows_exec
+.PHONY : cachecows_exec
 
 # fast build rule for target.
-CacheCows_exec/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CacheCows_exec.dir/build.make CMakeFiles/CacheCows_exec.dir/build
-.PHONY : CacheCows_exec/fast
+cachecows_exec/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cachecows_exec.dir/build.make CMakeFiles/cachecows_exec.dir/build
+.PHONY : cachecows_exec/fast
 
 src/developer.o: src/developer.c.o
 .PHONY : src/developer.o
@@ -195,7 +195,7 @@ src/main.o: src/main.c.o
 
 # target to build an object file
 src/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CacheCows_exec.dir/build.make CMakeFiles/CacheCows_exec.dir/src/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cachecows_exec.dir/build.make CMakeFiles/cachecows_exec.dir/src/main.c.o
 .PHONY : src/main.c.o
 
 src/main.i: src/main.c.i
@@ -203,7 +203,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CacheCows_exec.dir/build.make CMakeFiles/CacheCows_exec.dir/src/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cachecows_exec.dir/build.make CMakeFiles/cachecows_exec.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -211,7 +211,7 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CacheCows_exec.dir/build.make CMakeFiles/CacheCows_exec.dir/src/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cachecows_exec.dir/build.make CMakeFiles/cachecows_exec.dir/src/main.c.s
 .PHONY : src/main.c.s
 
 # Help Target
@@ -222,7 +222,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... CacheCows_exec"
+	@echo "... cachecows_exec"
 	@echo "... devlib"
 	@echo "... src/developer.o"
 	@echo "... src/developer.i"

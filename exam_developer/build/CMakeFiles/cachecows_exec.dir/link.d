@@ -1,8 +1,8 @@
-CacheCows_exec: \
+cachecows_exec: \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o \
-  CMakeFiles/CacheCows_exec.dir/src/main.c.o \
+  CMakeFiles/cachecows_exec.dir/src/main.c.o \
   libdevlib.a \
   /usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a \
   /usr/lib/gcc/x86_64-linux-gnu/13/libgcc_s.so \
@@ -32,7 +32,7 @@ CacheCows_exec: \
 
 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o:
 
-CMakeFiles/CacheCows_exec.dir/src/main.c.o:
+CMakeFiles/cachecows_exec.dir/src/main.c.o:
 
 libdevlib.a:
 

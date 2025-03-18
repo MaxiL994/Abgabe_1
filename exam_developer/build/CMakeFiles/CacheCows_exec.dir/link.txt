@@ -1,1 +1,0 @@
-/usr/bin/gcc -Wl,--dependency-file=CMakeFiles/CacheCows_exec.dir/link.d CMakeFiles/CacheCows_exec.dir/src/main.c.o -o CacheCows_exec  libdevlib.a
